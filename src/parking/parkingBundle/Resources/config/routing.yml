@@ -1,0 +1,15 @@
+parkingparking_homepage:
+    path: /hello/{name}
+    defaults: { _controller: parkingparkingBundle:Default:index }
+
+parkingparking_home:
+    path: /
+    defaults: {_controller: parkingparkingBundle:Parking:index }
+
+parkingparking_login:
+    path: /login/
+    defaults: {_controller: parkingparkingBundle:Parking:login }
+
+parkingparking_signup:
+    path: /signup/
+    defaults: {_controller: parkingparkingBundle:Parking:signup }

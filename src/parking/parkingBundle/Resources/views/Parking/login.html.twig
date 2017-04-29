@@ -1,0 +1,17 @@
+{% extends "::layout.html.twig" %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block body %}
+	<CENTER>
+	<h2>Connexion</h2>
+	{{ form_start(form)}}
+		{{ form_widget(form) }}
+	{{ form_end(form) }}
+	<a href="{{ path('parkingparking_signup') }}">Créer un compte utilisateur</a>
+	</CENTER>
+{% endblock %}
+
+{% block javascripts %}
+{% endblock %}
