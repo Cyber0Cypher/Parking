@@ -1,0 +1,17 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: parking
+    database_user: insc
+    database_password: insc
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: fr
+    secret: 7c86c271a938963faf9c456f4a127bd86e963bc8
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true

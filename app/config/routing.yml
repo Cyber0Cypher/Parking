@@ -1,0 +1,4 @@
+parkingparking:
+    resource: "@parkingparkingBundle/Resources/config/routing.yml"
+    prefix:   /
+
